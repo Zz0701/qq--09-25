@@ -1,0 +1,69 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  .fenlei-List{
+    display: flex;
+    font-size:1.3333333333333332rem;
+    color:#0a0a0a;
+    width: 50rem;
+    justify-content:space-between;
+    margin:0 auto;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.fenlei-Item{				
+    position: relative;
+    width:24.866666666666667rem;
+    height:32.333333333333336rem;
+    margin-bottom:2rem;
+}
+.fenlei-content ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.fenlei-Image{
+    display: block;
+    width:24.866666666666667rem;
+    height:24.866666666666667rem;
+}
+.fenlei-Info{
+    display: block;
+    font-size:1.4666666666666665rem;
+    line-height: 3.6666666666666665rem;
+    color:#000;
+}
+.fenlei-Singer{
+    display: block;
+    font-size:1.4666666666666665rem;
+    line-height:2.2666666666666665rem;
+    color:#858585;
+}
+.bofang-gedan{
+    position:absolute;
+    top:20.533333333333335rem;
+    left:20.533333333333335rem;
+}
+.gengxin-time{
+    position:absolute;
+    top:21.533333333333335rem;
+    left:0px;
+}
+.time{
+    position:absolute;
+    top:22.4rem;
+    left:3.533333333333333rem;
+    font-size: 1.2666666666666667rem;
+    color: #fff;
+}

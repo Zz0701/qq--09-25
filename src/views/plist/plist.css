@@ -1,0 +1,109 @@
+#components-layout-demo-top .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+  }
+  .fenlei-head{
+    padding-top:0.9333333333333333rem;
+    width:100%;
+    height:6.666666666666667rem;
+    position:fixed;
+    top:0;
+    left:0;
+    background: #fff;
+}
+.fenlei-fanhui{
+    margin-left: -33.333333333333336rem;
+    margin-top:0px;
+}
+.fenlei-newSong{
+    margin-left:16.666666666666668rem;
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+}
+.fenlei-movie{
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+    color:#FFF;
+    background: #000000;
+}
+.fenlei-Nav{
+    height:5.066666666666666rem;
+    font-size:2rem;
+    line-height: 4.6rem;
+    margin-top: 7rem;
+}
+.fenlei-Nav a{
+    color:#000;
+    margin: 2.6666666666666665rem;
+}
+.fenlei-List{
+    display: flex;
+    font-size:1.3333333333333332rem;
+    color:#0a0a0a;
+    width: 50rem;
+    justify-content:space-between;
+    margin:0 auto;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.fenlei-Item{				
+    position: relative;
+    width:24.866666666666667rem;
+    height:32.333333333333336rem;
+    margin-bottom:2rem;
+}
+.fenlei-content ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.fenlei-Image{
+    display: block;
+    width:24.866666666666667rem;
+    height:24.866666666666667rem;
+}
+.fenlei-Info{
+    display: block;
+    font-size:1.4666666666666665rem;
+    line-height: 3.6666666666666665rem;
+    color:#000;
+}
+.fenlei-Singer{
+    display: block;
+    font-size:1.4666666666666665rem;
+    line-height:2.2666666666666665rem;
+    color:#858585;
+}
+.bofang-gedan{
+    position:absolute;
+    top:20.533333333333335rem;
+    left:20.533333333333335rem;
+}
+.gengxin-time{
+    position:absolute;
+    top:21.533333333333335rem;
+    left:0px;
+}
+.time{
+    position:absolute;
+    top:22.4rem;
+    left:3.533333333333333rem;
+    font-size: 1.2666666666666667rem;
+    color: #fff;
+}

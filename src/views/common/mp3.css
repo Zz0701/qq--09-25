@@ -1,0 +1,425 @@
+.fenlei-head{
+    padding-top:0.9333333333333333rem;
+    width:100%;
+    height:6.666666666666667rem;
+    position:fixed;
+    top:0;
+    left:0;
+    background: #fff;
+}
+.fenlei-fanhui{
+    margin-left: -33.333333333333336rem;
+    margin-top:0px;
+}
+.fenlei-newSong{
+    margin-left:16.666666666666668rem;
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+}
+.fenlei-movie{
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+    color:#FFF;
+    background: #000000;
+}
+
+
+.singer-title{
+    margin-top:5px;
+    display:inline-block;
+    margin-left:25%;
+    background: #000;
+    font-size:20px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#fff;
+    width:2rem;
+    height:1rem;
+    text-align: center;
+}
+.user{
+    display:inline-block;
+    font-size:20px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#000;
+    width:2rem;
+    height:1rem;
+    text-align: center;
+    background: #fff;
+}
+.classfiy-Singer{
+    font-size:17px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#80d6ac;
+    padding:10px;
+}
+.classfiy{
+    width:200%;
+    font-size:17px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    overflow:hidden;
+}
+.classfiy a{
+    margin-left:7px;
+    color:#010101;
+    padding:10px;
+}
+.Border-Bottom{
+    border-bottom:1px solid #f4f4f4;
+}
+/*播放器 */
+.play-bottom {
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgba(41, 39, 46, 0.85);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 99;
+  }
+  .play-left {
+    width: 55%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .play-left img {
+    width: 6.5rem;
+    float: left;
+  }
+  .play-left .SingerImage {
+    margin: auto 0;
+    width: 50%;
+    color: #fff;
+    float: left;
+    font-size: 1.75rem;
+  }
+    /* @-webkit-keyframes rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+    }
+    
+    .Rotationsss{
+    animation: rotation 10s linear infinite;
+    -moz-animation: rotation 10s linear infinite;
+    -webkit-animation: rotation 10s linear infinite;
+    -o-animation: rotation 10s linear infinite;
+    } */
+
+  .play-left .Singer-Image{
+    border-radius:50%;
+  }
+
+  .play-left .SingerName{
+    margin: auto 0;
+    width: 50%;
+    color: #fff;
+    float: left;
+    font-size: 1.75rem;
+    margin-left: -3.9rem;
+  }
+  .play-left p span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+  }
+  .play-left p span:nth-child(2){
+    font-size: .3rem;
+  }
+  .play-right {
+    position:relative;
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: .1rem;
+    height: 100%;
+  }
+  .play-right > div {
+    font-size: 3.9rem;
+    color: #fff;
+  }
+  
+  .play-right > div:active{
+    color: #e5e5e5;
+  }
+  
+  
+  .clear:after {
+      display: block;
+      content: "";
+      clear: both;
+  }
+  
+  .m-main {
+    width: 100%;
+      height: 100%;
+      position: fixed;
+    left: 0;
+    -top: 100rem;
+      box-sizing: border-box;
+      color: #fff;
+      background: rgba(0,0,0,.6);
+      z-index: 10;
+    transition: .5s;
+    z-index: 10000;
+    overflow: hidden;
+  }
+  .bg-overlay {
+      background: url(https://y.gtimg.cn/music/photo_new/T002R300x300M000003lFlWa0CwNbA.jpg?max_age=2592000) no-repeat;
+      background-size: cover;
+      filter: blur(10px);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+  }
+  
+  .play-overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,.6);
+  }
+  
+  
+  .hide-player {
+    background: rgba(255,255,255,0);
+    color: #fff;
+    z-index: 999;
+      height: 1rem;
+  }
+  
+  
+  
+  .m-bottom {
+      width: 100%;
+      position: absolute;
+      bottom: .5rem;
+      left: 0;
+  }
+  
+  .m-progress-box {
+      padding: 0 .2rem;
+      box-sizing: border-box;
+      font-size: .12rem;
+      display: flex;
+      align-items: center;
+  
+  }
+  
+  .m-progress-box span {
+      width: 1rem;
+  }
+  
+  .m-progress {
+      width: 7rem;
+      height: .44rem;
+      margin: 0 .1rem;
+      display: flex;
+      align-items: center;
+      position: relative;
+      -overflow: hidden;
+  }
+  
+  .m-progress-line {
+      width: 100%;
+      background:#9c8d88;
+      height: .06rem;
+      position: relative;
+  }
+  
+  .m-progress-lineed {
+      width: 0;
+      background: #d23d43;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+  }
+  
+  .m-progress-circle {
+      width: .4rem;
+      height: .4rem;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 50%;
+      z-index: 2;
+  }
+  
+  .m-play-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: .1rem;
+  }
+  
+  .m-play-play-btn {
+      width: 1rem;
+      height: 1rem;
+      background: #c84040;
+      border-radius: 50%;
+      margin: 0px .56rem;
+      
+  
+  }
+  
+  .m-play-btn:before {
+      font-size: .4rem;
+      color: #fff;
+      display: block;
+      text-align: center;
+      line-height: .85rem;
+  }
+  
+  .m-play-play-btn {
+      font-size: .8rem;
+      color: #fff;
+      display: block;
+      text-align: center;
+      line-height: 1rem;
+  }
+  
+  .m-play-btn {
+      width: .85rem;
+      height: .85rem;
+      background: #c84040;
+      border-radius: 50%;
+  }
+  
+  
+  .m-lyric-area {
+      height: 58%;
+      overflow: hidden;
+      position: relative;
+    z-index: 2;
+    margin-top: .6rem;
+  }
+  
+  .m-lyric {
+      width: 100%;
+      position: absolute;
+      left: 0;
+    top: 0;
+  }
+  
+  .m-lyric-area p {
+      text-align: center;
+      line-height: 1rem;
+      font-size: .3rem;
+      
+  }
+  
+  
+  .m-lyric .bg {
+      color: red;
+      font-size: .4rem;
+  }
+
+  /* 歌词 */
+  .mark{
+      position: fixed;
+      top:0;
+      left:0;
+      z-index: 999;
+      width:100%;
+      height:14rem;
+      background:#280f1c;
+  }
+  .mark .Background{
+    position: fixed;
+    top: 0px;
+    left: -40px;
+    z-index: 999;
+    width: 115%;
+    height: 102%;
+    -webkit-filter: blur(30px);
+    filter: blur(30px);
+  }
+  .Song-List{
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 999;
+    width: 41rem;
+    height: 41.5rem;
+    padding: 7rem 1rem;
+    font-size: 2rem;
+    overflow: hidden;
+  }
+  .Song-Item{
+      margin:1.3rem;
+      color:rgba(32, 32, 30, 0.867);
+      overflow:hidden;
+      text-align: center;
+  }
+  /*进度条 */
+  .Progress-bar{
+    position: absolute;
+    top: 70rem;
+    left: 5.5rem;
+    z-index: 999;
+    width: 80%;
+    height: .1rem;
+    background: #726b63;
+  }
+  .Progress-circle{
+    position: absolute;
+    top: 68.9rem;
+    left: 4rem;
+    z-index: 999;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background: #f0f0f0;
+  }
+  .Song-Words{
+    position: absolute;
+    top:65%;
+    left:0px;
+    text-align: center;
+  }
+
+  .mask-bottom{
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgba(41, 39, 46, 0.85);
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 1000;
+  }

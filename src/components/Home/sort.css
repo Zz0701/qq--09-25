@@ -1,0 +1,14 @@
+
+#sort a{
+    display:inline-block;
+    text-align: center;
+    margin:1.3rem;
+}
+#sort span{
+    display:block;
+    margin-top:.3rem;
+    font-size: .35rem;
+    color: #424242;
+    margin:.3rem;
+    margin-bottom:.5rem;
+}

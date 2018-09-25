@@ -1,0 +1,315 @@
+.fenlei-head{
+    padding-top:0.9333333333333333rem;
+    width:100%;
+    height:6.666666666666667rem;
+    position:fixed;
+    top:0;
+    left:0;
+    background: #fff;
+}
+.fenlei-fanhui{
+    margin-left: -33.333333333333336rem;
+    margin-top:0px;
+}
+.fenlei-newSong{
+    margin-left:16.666666666666668rem;
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+}
+.fenlei-movie{
+    float:left;
+    width:8.666666666666666rem;
+    height:3.6666666666666665rem;
+    font-size: 1.8rem;
+    border: 1px solid #000000;
+    text-align: center;
+    line-height: 3.6rem;
+    color:#FFF;
+    background: #000000;
+}
+
+
+.singer-title{
+    margin-top:5px;
+    display:inline-block;
+    margin-left:25%;
+    background: #000;
+    font-size:20px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#fff;
+    width:2rem;
+    height:1rem;
+    text-align: center;
+}
+.user{
+    display:inline-block;
+    font-size:20px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#000;
+    width:2rem;
+    height:1rem;
+    text-align: center;
+    background: #fff;
+}
+.classfiy-Singer{
+    font-size:17px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    color:#80d6ac;
+    padding:10px;
+}
+.classfiy{
+    width:200%;
+    font-size:17px;
+    font-family:'微软雅黑';
+    line-height:50px;
+    overflow:hidden;
+}
+.classfiy a{
+    margin-left:7px;
+    color:#010101;
+    padding:10px;
+}
+.Border-Bottom{
+    border-bottom:1px solid #f4f4f4;
+}
+
+
+/* 详情页歌曲列表 */
+.header{
+    width:100%;
+    height:30.4375rem;
+    width:46.875rem;
+}
+.header .gedan-Background{
+    width: 100%;
+    height: 31.9375rem;
+    -webkit-filter: blur(10px);
+    filter: blur(54px)
+}
+.fixed-Background{
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 4.925rem;
+    -webkit-filter: blur(10px);
+    filter: blur(22px);
+}
+.gedan-head{
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:9;
+    width:100%;
+    height:8.925rem;
+}
+.gedan{
+    position: absolute;
+    top: 2rem;
+    left: 22.5rem;
+    z-index:9;
+    color:#fff;
+    font-size:2.25rem;
+}
+.gedan-fanhui{
+    position: absolute;
+    top: 1rem;
+    left: 15rem;
+    z-index:9;
+    vertical-align: top;
+    margin-left: -13.375rem;
+}
+.gedan-more{
+    position: absolute;
+    top: 1.5rem;
+    left: 29rem;
+    z-index:9;
+    vertical-align: top;
+    margin-left: 13.375rem;
+}
+.singer-infor{
+    position: absolute;
+    top:7.925rem;
+    left:0rem;
+    z-index:9;
+    width:100%;
+    height:253px;
+}
+.gedan-Img{
+    position: absolute;
+    top:0rem;
+    left:4rem;
+    width:16rem;
+    height:16rem;
+    display: inline-block;
+}
+.gedan-Info{
+    position: absolute;
+    top:0rem;
+    left:23rem;
+    z-index:9;
+    display: inline-block;
+    width:26.25rem;
+    height:15.625rem;
+}
+.gedan-Info-a{
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:9;
+    font-size: 2.0625rem;
+    color:#ffffff;
+}
+.gedan-pinglun{
+    position: absolute;
+    top:7rem;
+    left:2rem;
+    z-index:9;
+    width:46.875rem;
+    height:8.125rem;
+}
+.gedan-pinglun span{
+    display: inline-block;
+    text-align: center;
+    font-size:1.875rem;
+    color:#ffffff;
+}
+.shoucang{
+    position: absolute;
+    top: 16.875rem;
+    left: -0.1875rem;
+    z-index:9;
+    display: inline-block;
+    text-align: center;
+    margin-left:2.8125rem;
+    margin-top:1.875rem;
+}
+.pinglun{
+    position: absolute;
+    top: 16.875rem;
+    left: 11.875rem;
+    z-index:9;
+    display: inline-block;
+    text-align: center;
+    margin-left:6.875rem;
+    margin-top:1.875rem;
+}
+.fenxiang{
+    position: absolute;
+    top: 16.875rem;
+    left: 26.45rem;
+    z-index:9;
+    display: inline-block;
+    text-align: center;
+    margin-left:8.75rem;
+    margin-top:1.875rem;
+}
+.shou-Cang{
+    position: absolute;
+    top: 19.475rem;
+    left: 6.875rem;
+    z-index:9;
+}
+.ping-Lun{
+    position: absolute;
+    top: 19.475rem;
+    left: 22.875rem;
+    z-index:9;
+}
+.fen-Xiang{
+    position: absolute;
+    top: 19.475rem;
+    left: 39.275rem;
+    z-index:9;
+}
+.MusicAllSelect{
+    position: relative;
+    height: 6.75rem;
+    border-bottom: 1px solid #e6e6e6;
+}
+.Music-All-Play{
+    position: absolute;
+    top: 1.35rem;
+    left: 1rem;
+    width: 4.375rem;
+    height: 4.375rem;
+}
+.Music-All{
+    position: absolute;
+    top: 1.45rem;
+    left: 6rem;
+    font-size: 2rem;
+    line-height: 4.35rem;
+    color: #000000;
+}
+.Music-Download{
+    position: absolute;
+    z-index: 9;
+    top: 1.725rem;
+    left: 38.25rem;
+}
+.Music-SelecAll{
+    position: absolute;
+    top: 1.725rem;
+    left: 44.25rem;
+    z-index: 9;
+}
+.SongList{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+.SongListItem{
+    display: block;
+    width: 100%;
+    height: 7.875rem;
+    overflow: hidden;
+}
+.SongListItem .Music-Number{
+    float: left;
+    width: 7rem;
+    height: 100%;
+    font-size: 2rem;
+    line-height: 6.5rem;
+    color: #000000;
+    text-align: center;
+}
+.SongList p{
+    float: left;
+    width: 35rem;
+    height: 100%;
+}
+.Song-Name{
+    display: block;
+    width: 35rem;
+    height: 4rem;
+    font-size: 1.875rem;
+    color: #000;
+    line-height: 4rem;
+    overflow: hidden;
+}
+.Singer-Name{
+    display: block;
+    width: 35rem;
+    height: 2.875rem;
+    font-size: 1.4375rem;
+    color: #666666;
+    line-height: 1.4375rem;
+    overflow: hidden;
+    /* background: #666666; */
+}
+
+.SongListItem img{
+    float: left;
+    width:7rem;
+    height:100%;
+}
+

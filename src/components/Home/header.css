@@ -1,0 +1,159 @@
+.top .am-navbar-left{
+  /* background:url('http://m.kugou.com/v3/static/images/index/logo.png') 0 .2rem no-repeat; */
+  margin-left: .3rem;
+  background-size: 100%;
+}
+
+.header {
+  /* position: fixed; */
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+body{
+  margin:0;
+}
+.head-Wode{
+  position:relative;
+  width:50rem;
+  height:11.333333333333334rem;
+  background: #31c27c;
+}
+
+.head-box{
+  width:27.333333333333332rem;
+  height:6rem;
+  margin-left:11.466666666666666rem;
+}
+.wode{
+  float: left;
+  width:8rem;
+  line-height: 5.333333333333333rem;
+  font-size: 2.4rem;
+  color:#fff;
+  text-align: center;
+}
+.yinyueguan{
+  float: left;
+  width:10rem;
+  line-height: 5.333333333333333rem;
+  font-size: 2.4rem;
+  color:#fff;
+  text-align: center;
+}
+.faxian{
+  float:left;
+  width:8.666666666666666rem;
+  line-height: 5.333333333333333rem;
+  font-size: 2.4rem;
+  color:#fff;
+  text-align: center;
+}
+.saoyisao{
+  position: absolute;
+  top:1.2rem;
+  right:1.3333333333333332rem;
+}
+.denglu{
+  position: absolute;
+  top:0.6rem;
+  left:0.8rem;
+}
+.head-search{
+  width:47.86666666666667rem;
+  height:4.333333333333333rem;
+  background: #2baa6d;
+  margin-left:1.0666666666666666rem;
+}
+.search-ico{
+  position: absolute;
+  top:7rem;
+  left:20.266666666666665rem;
+  width:8.6rem;
+  height:3.2rem;
+}
+.head-login{
+  position: absolute;
+  width:48rem;
+  height:15.6rem;
+  box-shadow:0 0 0.6666666666666666rem #f3f3f3; 
+  margin-left:1.0666666666666666rem;
+  margin-top:-0.6rem;
+  z-index: 2;
+  background: #fff;
+}
+.login-user{
+  float:left;
+  margin-left: 9.533333333333333rem;
+  margin-top:3.3333333333333335rem;
+}
+.Login{
+  float:left;
+  text-align: center;
+  color:#000;
+  font-size: 2.1333333333333333rem;
+  margin-top:4rem;
+  margin-left:1.3333333333333332rem;
+}
+.mycontent{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  width:50rem;
+  height: 13.333333333333334rem;
+  margin-top:16rem;
+}
+.mycontent li{
+  float:left;
+}
+.My-All{
+  margin-top:4rem;
+  margin-left:4.466666666666667rem;
+}
+.My-download{
+  margin-top:3.7333333333333334rem;
+  margin-left:7.866666666666666rem;
+}
+.bofang-Recent{
+  margin-top:4rem;
+  margin-left:6.666666666666667rem;
+}
+.My-like{
+  margin-top:-8.466666666666666rem;
+  margin-left:5.6rem;
+}
+.My-Purchase{
+  margin-top:-8.733333333333332rem;
+  margin-left:8.466666666666666rem;
+}
+.Runing-vedio{
+  margin-top:-9rem;
+  margin-left:7.333333333333333rem;
+}
+.myNum{
+  color:#666666;
+  font-size: 1.3333333333333332rem;
+  display: block;
+  text-align: center;
+  line-height: 2.8rem;
+}
+.shoucang-gedan{
+  color:#a6a6a6;
+  font-size: 1.9333333333333333rem;
+  text-align: center;
+}
+.xinjian-gedan{
+  float:left;
+  color: #2f2f2f;
+  font-size: 2.066666666666667rem;
+  line-height: 6rem;
+  margin-left: 1.7333333333333334rem;
+}
+.more-gedan{
+  margin-left:13.333333333333334rem;
+}
+.tianjia-gedan{
+  margin-left:25.333333333333332rem;
+}
